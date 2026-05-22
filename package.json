@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "upload": "rsync -avz ./.vitepress/dist/ fly@47.115.214.219:/home/fly/docs/wmview"
+  },
+  "devDependencies": {
+    "markdown-it-mathjax3": "^4.3.2",
+    "vitepress": "^2.0.0-alpha.17"
+  }
+}
