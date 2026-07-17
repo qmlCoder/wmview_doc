@@ -62,6 +62,10 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
+    outline: {
+      level: "deep",
+      label: "页面导航",
+    },
   },
   markdown: {
     math: true,
